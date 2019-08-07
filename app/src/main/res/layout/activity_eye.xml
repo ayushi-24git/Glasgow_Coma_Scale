@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEST EYE RESPONSE"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioGroup">
+        <RadioButton
+            android:id="@+id/spont"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/respo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="112dp"
+            android:text=" 4. Opens eyes spontaneously" />
+        <RadioButton
+            android:id="@+id/respo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/stim"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp"
+            android:text=" 3. Opens eyes in response to voice" />
+
+
+        <RadioButton
+            android:id="@+id/stim"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="17dp"
+            android:text=" 2. Opens eyes in response to painful stimuli" />
+
+        <RadioButton
+            android:id="@+id/does"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/stim"
+            android:layout_marginTop="17dp"
+
+            android:text=" 1. does not open eyes" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/button_next1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_below="@+id/RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        />
+</RelativeLayout>

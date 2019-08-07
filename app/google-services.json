@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "610708041207",
+    "firebase_url": "https://glasgow-coma-scale-7164d.firebaseio.com",
+    "project_id": "glasgow-coma-scale-7164d",
+    "storage_bucket": "glasgow-coma-scale-7164d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610708041207:android:4c2709b270225b72",
+        "android_client_info": {
+          "package_name": "com.example.aarnarratta.glasgowcomascale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610708041207-j4tj8r73ha851h53e8am7upgmmualqhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmFfj5k8Ez6DRU2PzblId-N3G0ytBenUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

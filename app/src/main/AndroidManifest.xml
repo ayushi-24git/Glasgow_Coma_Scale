@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aarnarratta.glasgowcomascale">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/gcs"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AccountActivity.Main2Activity"
+            android:label="Glasgow Coma Scale"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".AccountActivity.gcs" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AccountActivity.SignUpActivity" />
+        <activity android:name=".AccountActivity.ResetPasswordActivity" />
+        <activity android:name=".AccountActivity.Patient" />
+        <activity android:name=".AccountActivity.PatientInfo" />
+        <activity android:name=".AccountActivity.gallery" />
+        <activity android:name=".AccountActivity.about" />
+        <activity android:name=".AccountActivity.Service" />
+        <activity android:name=".AccountActivity.language" />
+        <activity android:name=".AccountActivity.Bangla" />
+        <activity android:name=".AccountActivity.English" />
+        <activity android:name=".AccountActivity.Chinese" />
+        <activity android:name=".AccountActivity.Danish" />
+        <activity android:name=".AccountActivity.Gaelic" />
+        <activity android:name=".AccountActivity.Greek" />
+        <activity android:name=".AccountActivity.Gujarati" />
+        <activity android:name=".AccountActivity.Hindi" />
+        <activity android:name=".AccountActivity.Hungarian" />
+        <activity android:name=".AccountActivity.Indonesian" />
+        <activity android:name=".AccountActivity.Kannada" />
+        <activity android:name=".AccountActivity.Malay" />
+        <activity android:name=".AccountActivity.Marathi" />
+        <activity android:name=".AccountActivity.Nepal" />
+        <activity android:name=".AccountActivity.Odia" />
+        <activity android:name=".AccountActivity.Polish" />
+        <activity android:name=".AccountActivity.Portuguese" />
+        <activity android:name=".AccountActivity.Punjabi" />
+        <activity android:name=".AccountActivity.Romanian" />
+        <activity android:name=".AccountActivity.Rwandan" />
+        <activity android:name=".AccountActivity.Swedish" />
+        <activity android:name=".AccountActivity.Thai" />
+        <activity android:name=".AccountActivity.Urdu" />
+        <activity android:name=".AccountActivity.Vietnamese" />
+        <activity android:name=".AccountActivity.Welsh" />
+        <activity
+            android:name=".AccountActivity.eye"
+            android:label="@string/title_activity_eye"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AccountActivity.verbal" />
+        <activity android:name=".AccountActivity.motor" />
+        <activity android:name=".AccountActivity.result" />
+        <activity android:name=".AccountActivity.team"></activity>
+        <activity android:name=".AccountActivity.graphview">
+
+
+
+        </activity>
+        <activity
+            android:name=".GraphTry"
+            android:hardwareAccelerated="true"
+            android:label="@string/title_activity_graph_try"
+            android:theme="@style/AppTheme">  </activity>
+
+    </application>
+
+</manifest>

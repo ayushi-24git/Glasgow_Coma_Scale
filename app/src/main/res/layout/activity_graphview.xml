@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aarnarratta.glasgowcomascale.AccountActivity.graphview">
+    <!--    xmlns:app="http://schemas.android.com/apk/libs/graphs.com.graphs"-->
+    <com.jjoe64.graphview.helper.GraphViewXML
+        android:layout_height="100dp"
+        android:layout_width="50dp"
+        android:id="@+id/graph"/>
+</LinearLayout>

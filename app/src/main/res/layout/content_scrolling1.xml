@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AccountActivity.about"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0FFFF"
+        android:orientation="vertical"
+        android:id="@+id/r1">
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        app:cardBackgroundColor="#BBFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="340dp"
+            android:layout_height="340dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#E0FFFF"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/tick_icon" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glasgow Coma Scale"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textColor="#00868b"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Glasgow Coma Scale provides a practical method for assessment of impairment of conscious level in response to defined stimuli."
+                android:textAlignment="center"
+                android:textColor="#00868b"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            app:cardBackgroundColor="#BBFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="340dp"
+                android:layout_height="390dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#E0FFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/search_icon" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Structured Assessment"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It sets out standardisation in stimulation and an emphasis on reporting of the three components rather than the total sum. These steps are detailed in the video."
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card3"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            app:cardBackgroundColor="#BBFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="340dp"
+                android:layout_height="390dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#E0FFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/location_icon" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eye and Verbal Scales"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eye opening to pressure has replaced opening to pain, in part to reflect accurately the nature of stimulus used, in part also because of reservations about the concept of pain as a component of care."
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card4"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="350dp"
+            android:layout_height="450dp"
+            app:cardBackgroundColor="#BBFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="340dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#E0FFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/clock_icon" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Motor Response"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="he makeup of the motor component of the scale was altered in 1976 by the incorporation of an additional step: the introduction of differentiation between “normal” and “abnormal” flexion. Earlier studies of observer variability had shown that this distinction was difficult for less experienced staff, so it was not included in original descriptions. "
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card5"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="350dp"
+            android:layout_height="450dp"
+            app:cardBackgroundColor="#BBFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:id="@+id/linear5"
+                android:layout_width="340dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#E0FFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/leaf_icon" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stimulation"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The technique of stimulation to be used to elicit responses was not tightly specified in the original 1974 report. A year later (Teasdale Nursing times, 1975) a more detailed description of practical use of the Glasgow Coma Scale referred to locations for stimulation being finger nail bed, trapezius muscle and supraorbital notch."
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card6"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="350dp"
+            android:layout_height="460dp"
+            app:cardBackgroundColor="#BBFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:id="@+id/linear6"
+                android:layout_width="340dp"
+                android:layout_height="450dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#E0FFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/heart_icon" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Self Test"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Now that you’ve seen how to perform the new structured approach to assessment of the Glasgow Coma Scale, test your learning by answering these questions (Disclaimer). When you have completed the questions you will receive a score with feedback on your answers.Your goal is to become proficient at using the Coma Scale and you can take this test as many times as you wish (Disclaimer)."
+                    android:textAlignment="center"
+                    android:textColor="#00868b"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aarnarratta.glasgowcomascale.AccountActivity.verbal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEST VERBAL RESPONSE"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioGroup">
+        <RadioButton
+            android:id="@+id/normal"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:text=" 5. Oriented,converses normally" />
+
+        <RadioButton
+            android:id="@+id/dist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/normal"
+            android:layout_marginTop="11dp"
+            android:text=" 4. Confused,distorted" />
+
+        <RadioButton
+            android:id="@+id/utt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/dist"
+            android:layout_marginTop="14dp"
+            android:text=" 3. Utters in appropriate words" />
+
+        <RadioButton
+            android:id="@+id/incom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/utt"
+            android:layout_alignStart="@+id/utt"
+            android:layout_below="@+id/utt"
+            android:layout_marginTop="14dp"
+            android:text=" 2. Incomprehensible sounds" />
+
+
+        <RadioButton
+            android:id="@+id/nos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/incom"
+            android:layout_alignStart="@+id/incom"
+            android:layout_below="@+id/incom"
+            android:layout_marginTop="16dp"
+            android:text="1. Makes no sounds" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/button_next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_below="@+id/RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        />
+</RelativeLayout>

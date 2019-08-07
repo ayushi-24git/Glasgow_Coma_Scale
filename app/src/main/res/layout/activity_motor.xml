@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aarnarratta.glasgowcomascale.AccountActivity.motor">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEST MOTOR RESPONSE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioGroup">
+        <RadioButton
+            android:id="@+id/obeys"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt"
+            android:layout_marginTop="48dp"
+            android:text=" 6. Obeys commands" />
+
+        <RadioButton
+            android:id="@+id/local"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/obeys"
+            android:text=" 5. Localizes painful stimuli" />
+
+        <RadioButton
+            android:id="@+id/abno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/local"
+            android:text=" 4. Flexion/Withdrawl to painful stimuli" />
+
+        <RadioButton
+            android:id="@+id/does"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/abno"
+            android:text=" 3. Abnormal flexion to painful stimuli" />
+
+        <RadioButton
+            android:id="@+id/exten"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/does"
+            android:text=" 2. Extension to painful stimuli" />
+
+        <RadioButton
+            android:id="@+id/make"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/exten"
+            android:text=" 1. Makes no movements" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/button_next3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_below="@+id/RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        />
+</RelativeLayout>

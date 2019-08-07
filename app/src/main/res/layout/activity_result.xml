@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.aarnarratta.glasgowcomascale.AccountActivity.result">
+
+    <TextView
+        android:id="@+id/id_typeofinjury"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp" />
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/gcs" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_scoreview"
+            android:text="Eye score:"
+            android:textSize="15sp" />
+
+        <TextView
+
+            android:id="@+id/id_eyescore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_scoreview"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_eyescore"
+            android:text="Verbal score:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_verbalscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_eyescore"
+
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_scoreview"
+            android:text="Motor score:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_motorscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_verbalscore"
+
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <TextView
+
+        android:id="@+id/id_scoreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_scoreview"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="points on the Glasgow Coma Scale"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:layout_width="275dp"
+        android:layout_height="306dp"
+        android:layout_below="@id/id_motorscore"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="50dp"
+
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="50dp"
+            android:text="Restart" />
+
+        <Button
+            android:id="@+id/forgraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_margin="47dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="FOR GRAPH" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
+
