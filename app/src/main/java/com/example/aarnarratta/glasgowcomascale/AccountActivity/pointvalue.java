@@ -12,7 +12,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class pointvalue extends AppCompatActivity{
     String x;
     double y;
-    public pointvalue()
+    public pointvalue(long x, int y)
     {
 
     }
